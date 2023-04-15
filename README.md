@@ -30,7 +30,7 @@ on 1000 keys
 data source file: D:\full-game\BallSpeed.csv
 
 [Experimental Results]
-file size: 82944, total query cost: 3622260 (read index cost: 2287920, search cost: 343090, read data cost: 6253270)
+file size: 82944, total query cost (ns): 3622260 (read index cost: 2287920, search cost: 343090, read data cost: 6253270)
 ```
 
 Similarly, run the following command:
@@ -48,6 +48,6 @@ on 1000 keys
 data source file is D:\full-game\BallSpeed.csv
 
 [Experimental Results]
-file size: 2224, total query cost: 1103260 (read index cost: 16900, search cost: 451180, read data cost: 1571340)
+file size: 2224, total query cost (ns): 1103260 (read index cost: 16900, search cost: 451180, read data cost: 1571340)
 ```
 
