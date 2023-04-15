@@ -23,12 +23,15 @@ java -jar BPlusTreeBaselineExp-jar-with-dependencies.jar true 1000 D:\full-game\
 
 and the experimental results on B+ tree with 1000 keys from BallSpeed dataset are printed in the console window:
 
->   [Experimental Settings]
->   B+ tree index on 1000 keys
->   data source file: D:\full-game\BallSpeed.csv
->
->   [Experimental Results]
->   file size: 82944, build cost: 2099924810, read index cost: 2361770, search cost: 2402560, read data cost: 217660, total query cost: 4981990
+```
+[Experimental Settings]
+B+ tree index
+on 1000 keys
+data source file: D:\full-game\BallSpeed.csv
+
+[Experimental Results]
+file size: 82944, total query cost: 3622260 (read index cost: 2287920, search cost: 343090, read data cost: 6253270)
+```
 
 Similarly, run the following command:
 
@@ -38,11 +41,13 @@ java -jar BPlusTreeBaselineExp-jar-with-dependencies.jar false 1000 D:\full-game
 
 and the experimental results on our proposed chunk index with 1000 keys from BallSpeed dataset are printed in the console window:
 
->   [Experimental Settings]
->   Chunk index with step regression
->   on 1000 keys
->   data source file is D:\full-game\BallSpeed.csv
->
->   [Experimental Results]
->   file size: 2224, build cost: 4771240, read index cost: 779470, search cost: 19670, read data cost: 390690, total query cost: 1189830
+```
+[Experimental Settings]
+Chunk index with step regression
+on 1000 keys
+data source file is D:\full-game\BallSpeed.csv
+
+[Experimental Results]
+file size: 2224, total query cost: 1103260 (read index cost: 16900, search cost: 451180, read data cost: 1571340)
+```
 

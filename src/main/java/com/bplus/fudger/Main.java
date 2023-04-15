@@ -236,9 +236,8 @@ public class Main {
     System.out.println();
     System.out.println("[Experimental Results]");
     System.out.printf(
-        "file size: %d, build cost: %d, read index cost: %d, search cost: %d, " +
-            "read data cost: %d, " + "total query cost: %d\n",
-        fileSizeSum / trialNum, buildCostSum / trialNum,
+        "file size: %d, total query cost: %d (read index cost: %d, search cost: %d, read data cost: %d)\n",
+        fileSizeSum / trialNum,
         readIndexCostSum / trialNum, searchCostSum / trialNum, readDataCostSum / trialNum,
         readIndexCostSum / trialNum + searchCostSum / trialNum + readDataCostSum / trialNum
     );
