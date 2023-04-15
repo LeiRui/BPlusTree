@@ -1,6 +1,6 @@
-package ds.bplus.util;
+package com.bplus.util;
 
-import ds.bplus.bptree.BPlusTree;
+import com.bplus.bptree.BPlusTree;
 
 import java.io.*;
 import java.util.Collections;

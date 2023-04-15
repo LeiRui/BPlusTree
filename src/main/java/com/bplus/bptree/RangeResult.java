@@ -1,4 +1,4 @@
-package ds.bplus.bptree;
+package com.bplus.bptree;
 
 import java.util.LinkedList;
 

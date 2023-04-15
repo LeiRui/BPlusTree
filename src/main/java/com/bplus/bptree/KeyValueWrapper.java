@@ -1,4 +1,4 @@
-package ds.bplus.bptree;
+package com.bplus.bptree;
 
 /**
  * Wrapper to conveniently return the (Key, Value) pair

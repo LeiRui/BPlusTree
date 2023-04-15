@@ -1,6 +1,6 @@
-package ds.bplus.bptree;
+package com.bplus.bptree;
 
-import ds.bplus.util.InvalidBTreeStateException;
+import com.bplus.util.InvalidBTreeStateException;
 
 import java.io.File;
 import java.io.IOException;

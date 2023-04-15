@@ -1,4 +1,4 @@
-package ds.bplus.util;
+package com.bplus.util;
 
 /**
  * Just a wrapper to state exception.

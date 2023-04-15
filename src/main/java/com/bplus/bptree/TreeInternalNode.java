@@ -1,4 +1,4 @@
-package ds.bplus.bptree;
+package com.bplus.bptree;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;

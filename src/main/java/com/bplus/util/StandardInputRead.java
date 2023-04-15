@@ -1,5 +1,5 @@
 /* Courtesy of @garanest with edits by me. */
-package ds.bplus.util;
+package com.bplus.util;
 
 
 import java.io.BufferedReader;
